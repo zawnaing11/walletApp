@@ -1,0 +1,185 @@
+body {
+    background-color: #ededf5;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    color: #333;
+}
+a:hover {
+    text-decoration: none;
+    color: #5842e3;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    border: none;
+
+}
+/* --------------------Header Menu------------------- */
+.header-menu {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 12px 0;
+    z-index: 1;
+}
+.header-menu i {
+    font-size: 18px;
+}
+.header-menu h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.header-menu a {
+    text-decoration: none;
+    color: #333;
+}
+.header-menu a:hover i, .bottom-menu a:hover p {
+    color: #5842e3;
+    transition: 2s;
+}
+/* --------------------Edit Sweet Alert Css------------------- */
+.swal2-popup {
+    border-radius: 10px !important;
+}
+.swal2-title {
+    font-size: 18px !important;
+}
+.swal2-styled {
+    border-radius: 10px !important;
+    padding: 10px 25px !important;
+}
+.swal2-confirm.swal2-styled {
+    background-color: #5842e3;
+}
+/* --------------------Bottom Menu------------------- */
+.btn-theme {
+    background-color: #5842e3;
+    color: #fff;
+    font-size: 16px;
+}
+.btn-theme:hover {
+    color: #fff;
+}
+.bottom-menu {
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.bottom-menu i {
+    font-size: 20px;
+    margin-top: 12px;
+}
+.bottom-menu p {
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+.bottom-menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+.bottom-menu a:hover i, .bottom-menu a:hover p {
+    color: #5842e3;
+    transition: 2s;
+}
+/* -------------------------Home------------- */
+.scanpay-box img, .function-box img {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+/* -------------------------Main Content------------- */
+.content {
+    margin: 75px 0;
+}
+/* --------------------------Profile Image------------------- */
+.profile {
+    text-align: center;
+}
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+/* --------------------------Update Password------------------- */
+.update-password img {
+    width: 300px;
+}
+/* --------------------------Scan Tab------------------- */
+.scan-tab {
+    width: 60px;
+    height: 60px;
+    background-color: #ededf5;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 40px;
+    right: 0;
+    left: 0;
+    margin:0 auto;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.scan-tab .inside {
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: glow 5s infinite;
+}
+.scan-tab .inside i {
+    margin: 0;
+}
+/* --------------------------Animation------------------- */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 -10px #5842e3;
+    }
+    40% {
+        box-shadow: 0 0 15px #5842e3;
+    }
+    60% {
+        box-shadow: 0 0 15px #5842e3;
+    }
+    100% {
+        box-shadow: 0 0 -10px #5842e3;
+    }
+}
+/* --------------------------Wallet------------------- */
+.wallet .wallet-card {
+    background-color: #5842e3;
+    color: #fff;
+}
+.wallet .wallet-card span {
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 3px;
+    color: #ededf5;
+}
+.wallet .wallet-card h4 {
+    font-size: 22px;
+    font-weight: 900;
+}
+.wallet .wallet-card p {
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* --------------------------Transaction Detail------------------- */
+.transaction-detail img {
+    width: 60px;
+}

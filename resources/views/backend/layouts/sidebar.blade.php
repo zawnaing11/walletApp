@@ -34,9 +34,30 @@
             <ul class="vertical-nav-menu">
                 <li class="app-sidebar__heading">Dashboards</li>
                 <li>
-                    <a href="{{ route('admin.home') }}" class="mm-active">
+                    <a href="{{ route('admin.home') }}" class="@yield('home-active')">
                         <i class="metismenu-icon pe-7s-display2"></i>
                         Dashboard
+                    </a>
+                </li>
+            </ul>
+            <ul class="vertical-nav-menu">
+                <li class="app-sidebar__heading">Management</li>
+                <li>
+                    <a href="{{ route('admin.admin-user.index') }}" class="@yield('admin-user-active')">
+                        <i class="metismenu-icon pe-7s-users"></i>
+                        Admin Users
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('admin.user.index') }}" class="@yield('user-active')">
+                        <i class="metismenu-icon pe-7s-users"></i>
+                        Users
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('admin.wallet.index') }}" class="@yield('wallet-active')">
+                        <i class="metismenu-icon pe-7s-wallet"></i>
+                        Wallets
                     </a>
                 </li>
             </ul>
